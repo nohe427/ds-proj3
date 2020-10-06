@@ -57,7 +57,7 @@ test_function([[6, 7, 8, 1, 2, 3, 4], 8])
 test_function([[6, 7, 8, 1, 2, 3, 4], 1])
 test_function([[6, 7, 8, 1, 2, 3, 4], 10])
 
-# Edge case 1 - A fully rotated array
+# Edge case 1 - A backwards array - not really rotated
 test_function([[10, 9, 8, 7, 6, 5, 4, 3, 2, 1], 9])
 
 # Edge case 2 - an Array with only one element
